@@ -1,33 +1,39 @@
 class Bacterium {
   positionX;
+
   positionY;
+
   status;
+
   futureStatus;
+
   static createdBacteriums;
 
-  constructor(x, y){
+  constructor(x, y) {
     this.positionX = x;
     this.positionY = y;
   }
 
-  isAlive(){
+  isAlive() {
     return this.status;
-  };
+  }
 
-  kill(){
-
-    if(this.status){
-    this.status = false;}
+  kill() {
+    if (this.status) {
+      this.status = false;
+    }
 
     return 1;
-  };
+  }
 
-  respawn(){
-    if(!this.status){
-      status = true;
+  respawn() {
+    if (!this.status) {
+      this.status = true;
     }
     return 1;
-  };
+  }
 
-  askNeightbor();
+  askNeightbor() {
+    return 1;
+  }
 }

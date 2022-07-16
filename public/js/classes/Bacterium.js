@@ -37,3 +37,5 @@ class Bacterium {
     return 1;
   }
 }
+
+module.exports = Bacterium;

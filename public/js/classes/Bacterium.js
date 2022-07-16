@@ -1,10 +1,7 @@
 class Bacterium {
   positionX;
-
   positionY;
-
   status;
-
   futureStatus;
 
   static createdBacteriums;

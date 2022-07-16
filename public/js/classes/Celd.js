@@ -9,4 +9,13 @@ class Celd {
     this.positionX = x;
     this.positionY = y;
   }
+
+  isFull() {
+    if (this.full) {
+      return true;
+    }
+    return false;
+  }
 }
+
+module.exports = Celd;
